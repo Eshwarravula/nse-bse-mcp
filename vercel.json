@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/nse-bse.ts": {
+      "maxDuration": 60
+    },
+    "api/nsekit.py": {
+      "maxDuration": 60
+    }
+  }
+}
